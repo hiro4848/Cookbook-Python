@@ -1,0 +1,18 @@
+---
+:ingredients:
+- :type: :installer
+  :installer_type: :msi
+  :source_url: http://www.python.org/ftp/python/2.7.5/python-2.7.5.msi
+  :package_name: Python 2.7.5
+  :installer_options: /qn TARGETDIR=C:\bin\Python27
+  :support_32bit: true
+  :support_64bit: 
+- :type: :installer
+  :installer_type: :msi
+  :source_url: http://www.python.org/ftp/python/2.7.5/python-2.7.5.amd64.msi
+  :package_name: Python 2.7.5 (64-bit)
+  :installer_options: /qn TARGETDIR=C:\bin\Python27
+  :support_32bit: 
+  :support_64bit: true
+:support_32bit: true
+:support_64bit: true
